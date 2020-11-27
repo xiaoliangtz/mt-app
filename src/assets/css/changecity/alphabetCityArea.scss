@@ -1,0 +1,33 @@
+.alphabet-city-area {
+    .city-area {
+        padding: 13px 30px 13px 10px;
+        border-radius: 10px;
+        -webkit-transition: background-color 500ms;
+        -ms-transition: background-color 500ms;
+        transition: background-color 500ms;
+        .city-label {
+            box-sizing: border-box;
+            vertical-align: top;
+            padding-top: 10px;
+            display: inline-block;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: #222222;
+            background: #FFD000;
+            box-shadow: 0 4px 5px 0 rgba(39,178,164,0.22);
+        }
+        .cities {
+            display: inline-block;
+            max-width: 1063px;
+            .city {
+                margin: 10px 20px;
+                color: #666;
+                display: inline-block;
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
